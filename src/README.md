@@ -13,4 +13,3 @@ its built in the following languages:
       javascript
       MYSQL
       AJAX
-         
