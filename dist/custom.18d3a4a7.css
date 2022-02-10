@@ -11270,11 +11270,11 @@ textarea.form-control-lg {
 }
 
 input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
+  min-width: 60%;
+  padding: 10px;
+  margin: 5px 0 13px 0;
   display: inline-block;
-  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.4);
   background: #f1f1f1;
 }
 
@@ -11286,15 +11286,15 @@ input[type=text]:focus, input[type=password]:focus {
 /* Overwrite default styles of hr */
 hr {
   border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+  margin-bottom: 2px;
 }
 
 /* Set a style for the submit button */
 .registerbtn {
   background-color: #04AA6D;
   color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
+  padding: 8px 10px;
+  margin: 4px 0;
   border: none;
   cursor: pointer;
   width: 100%;
@@ -11314,6 +11314,30 @@ a {
 .signin {
   background-color: #f1f1f1;
   text-align: center;
+}
+
+.signUp-page-Image {
+  position: absolute;
+  width: 100%;
+}
+
+.signUp-wrapper {
+  position: relative;
+  max-width: 35%;
+}
+
+.form-wrapper {
+  min-width: 30%;
+  height: 15em;
+}
+
+.form-wrapper h1, .form-wrapper .h1 {
+  text-align: center;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=/custom.18d3a4a7.css.map */
