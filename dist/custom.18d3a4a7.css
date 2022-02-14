@@ -11317,7 +11317,6 @@ a {
 }
 
 .signUp-page-Image {
-  position: absolute;
   width: 100%;
 }
 
@@ -11333,11 +11332,6 @@ a {
 
 .form-wrapper h1, .form-wrapper .h1 {
   text-align: center;
-}
-
-.flex-wrapper {
-  display: flex;
-  flex-direction: row;
 }
 
 /*# sourceMappingURL=/custom.18d3a4a7.css.map */
