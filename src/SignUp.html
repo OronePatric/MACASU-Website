@@ -31,12 +31,50 @@
       </div>
     </nav>
 
-    <div class="container">
+    <div class="container-fluid form-wrapper">
+      
+      <img src="Images/team.jpg" alt="sign up_Image">
 
-      <img src="Images/img(20).jpg" alt="sign up_Image">
+      <div class="image-text mt-1">
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <div class="signup-form">
+              <form action="validate.php" method="post" class="p-4 bg-transparent">
+                <div class="row">
+                  <h3 style="text-align:center;" class="text-white">Create Your Account</h3>
+                  <div class="mb-3 col-md-6">
+                    <label class="text-white" for="fname">First-Name</label>
+                    <input type="text" name="fname" class ="form-control" placeholder="First-name" required>
+                  </div>
+                  <div class="mb-3 col-md-6">
+                    <label  class="text-white" for="lname">Last-Name</label>
+                    <input type="text" name="lname" class="form-control" placeholder="Last-name" required>
+                  </div>
+                  <div class="mb-3 col-md-12">
+                    <label  class="text-white" for="Email">Email</label>
+                    <input type="text" name="Email" class="form-control" placeholder="xyz@gmail.com" required>
+                  </div>
+                  <div class="mb-3 col-md-12">
+                    <label class="text-white" for="password">Password</label>
+                    <input type="password" name="Email" class="form-control" placeholder="password" required>
+                  </div>
+                  <div class="mb-3 col-md-12">
+                    <label class="text-white" for="passwordConfirmation">Confirm password</label>
+                    <input type="password" name="passwordConfirmation" class="form-control" placeholder="confirm password" required>
+                  </div>
 
-      <div class="image-text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dicta excepturi quasi unde laboriosam optio.
+                  <div class="mb-1 col-md-12">
+                    <button class="btn btn-primary">SignUp </button>
+                  </div>
+                </div>
+                <p class="text-center text-white">If you have an account, Please <a  class="link-info" href="#LogIn.php">LogIn</a></p>
+              </form>
+              
+            </div>
+          </div>
+        </div>
+
+    
       </div>
 <!--       
       <form action="validate.php" method="post">
@@ -44,7 +82,6 @@
       </form> -->
     </div>
 
-    
    
 </body>
 </html>
