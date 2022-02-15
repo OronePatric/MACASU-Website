@@ -141,3 +141,17 @@ $font-family-sans-serif:'Poppins', sans-serif;
 .card:hover{
   transform: translateY(-50);
 }
+
+// ##########Sign Up Page####################//
+.form-wrapper{
+  // display: flex;
+  // justify-content: center;
+  position: relative;
+}
+.image-text{
+  position:absolute;
+  top: 5%;
+  // text-align: center;
+  min-width: 50%;
+  // background-color: rgba(0,0,0,.4);
+}

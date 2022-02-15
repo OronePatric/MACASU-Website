@@ -11269,4 +11269,14 @@ textarea.form-control-lg {
   transform: translateY(-50);
 }
 
+.form-wrapper {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  top: 5%;
+  min-width: 50%;
+}
+
 /*# sourceMappingURL=/custom.18d3a4a7.css.map */
